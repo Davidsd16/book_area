@@ -32,11 +32,11 @@
 
                     <div class="bg-gray-50 px-4 py-3 sm:flex sm_flex-row-reverser">
                         <span class="flex w-full rounded-md shadow-sm sm:ml-3 sm:w-auto">
-                            <button wire:click.prevent="guardar()" type="button" class="inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 bg-purple-600">Guardar</button>
+                            <button wire:click.prevent="guardar()" type="button" class="inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 bg-purple-600 focus:border-green-700 focus:shadow-outline-green transition ease-out duration-150 sm:text-sm sm:leading-5">Guardar</button>
                         </span>
 
                         <span class="flex w-full rounded-md shadow-sm sm:ml-3 sm:w-auto">
-                            <button wire:click.prevent="cerrarModal()" type="button" class="inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 bg-purple-600">Cancelar</button>
+                            <button wire:click.prevent="cerrarModal()" type="button" class="inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 bg-purple-600 ocus:border-green-700 focus:shadow-outline-green transition ease-out duration-150 sm:text-sm sm:leading-5" >Cancelar</button>
                         </span>
                     </div>
                 </div>
